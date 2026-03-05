@@ -1,0 +1,42 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "[Backquote]",
+        "command": "workbench.action.showCommands"
+    },
+    {
+        "key": "f1",
+        "command": "-workbench.action.showCommands"
+    },
+    {
+        "key": "f1",
+        "command": "workbench.action.terminal.toggleTerminal",
+        "when": "terminal.active"
+    },
+    {
+        "key": "ctrl+shift+[Equal]",
+        "command": "-workbench.action.terminal.toggleTerminal",
+        "when": "terminal.active"
+    },
+    {
+        "key": "ctrl+shift+F8", 
+        "command": "workbench.action.tasks.runTask",
+        "args": "My.compile.(unsafe).task"
+    },
+    {
+        "key": "ctrl+shift+F9", 
+        "command": "workbench.action.tasks.runTask",
+        "args": "My.build.(safe).task"
+    },
+    {
+        "key": "ctrl+shift+F11", 
+        "command": "workbench.action.tasks.runTask",
+        "args": "C/C++: g++-12 build all files in active folder"
+    },
+
+    {
+        "key": "ctrl+[Semicolon]",
+        "command": "editor.action.inlineSuggest.trigger"
+    }
+    
+]

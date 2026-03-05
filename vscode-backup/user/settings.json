@@ -1,0 +1,23 @@
+{
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "clangd.path": "c:\\Users\\robin\\AppData\\Roaming\\Code\\User\\globalStorage\\llvm-vs-code-extensions.vscode-clangd\\install\\16.0.2\\clangd_16.0.2\\bin\\clangd.exe",
+    "[cpp]": {
+        "editor.defaultFormatter": "xaver.clang-format"
+    },
+    "workbench.iconTheme": "material-icon-theme",
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "redhat.telemetry.enabled": false,
+    "workbench.sideBar.location": "right",
+    "editor.suggest.shareSuggestSelections": true,
+    "files.insertFinalNewline": true,
+    "editor.inlineSuggest.enabled": false,
+    "github.copilot.editor.enableAutoCompletions": true,
+    "terminal.integrated.inheritEnv": false,
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "workbench.editor.empty.hint": "hidden",
+    "workbench.colorTheme": "Gruvbox Dark Medium"
+   
+}
